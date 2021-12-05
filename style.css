@@ -1,0 +1,100 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Press Start 2P', cursive;
+    width: 60rem;
+    margin: auto;
+    background-color: #1F1F1F;
+    color: white;
+}
+
+.topbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 2rem;
+}
+
+button.btn.again {
+    padding: 0.8rem 2rem;
+    border: none;
+    font-size: 22px;
+    font-family: 'Press Start 2P', cursive;
+    transition: all, 2s;
+    background-color: #70C331;
+    border: 2px solid white;
+    cursor: pointer;
+    color: white;
+    box-shadow: 5px 5px 8px 5px rgb(0 0 0 / 25%);
+}
+
+button.btn.again:hover {
+    background-color: #5B9E27;
+}
+
+.guess-number {
+    text-align: center;
+    padding: 5rem 0;
+    font-size: 2.5rem;
+}
+
+.number {
+    width: 13rem;
+    padding: 1.7rem 0;
+    text-align: center;
+    margin: auto;
+    position: absolute;
+    left: 44%;
+    right: 50%;
+    top: 14.1rem;
+    z-index: 10;
+    font-size: 2.5rem;
+    background-color: white;
+    color: black;
+}
+
+hr {
+    height: 3px;
+    position: relative;
+    border: none;
+    background-color: white;
+    position: relative;
+}
+
+main {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 7rem;
+}
+
+.guess {
+    display: block;
+    padding: 2rem 0.3rem;
+    font-size: 2rem;
+    padding-left: 1rem;
+}
+
+.check {
+    padding: 0.8rem 2rem;
+    border: none;
+    font-size: 22px;
+    font-family: 'Press Start 2P', cursive;
+    transition: all, 2s;
+    background-color: #70C331;
+    border: 2px solid white;
+    cursor: pointer;
+    color: white;
+    box-shadow: 5px 5px 8px 5px rgb(0 0 0 / 25%);
+    margin-top: 2rem;
+}
+
+.check:hover {
+    background-color: #5B9E27;
+}
+
+.right p {
+    margin-bottom: 1.5rem;
+}
